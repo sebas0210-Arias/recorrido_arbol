@@ -94,6 +94,25 @@ public class NodoArbol <T>{
         }
     }
    }
+   public void posOrden(){
+
+    // recorrer hijos primero
+    if(hijo != null){
+
+        for(NodoArbol n : hijo){
+
+            if(n != null){
+                n.posOrden();
+            }
+
+        }
+
+    }
+
+    // visitar raíz al final
+    System.out.print(this.dato + " ");
+
+}
           
     }
 
