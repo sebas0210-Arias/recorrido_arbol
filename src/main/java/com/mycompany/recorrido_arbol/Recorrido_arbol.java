@@ -23,6 +23,10 @@ public class Recorrido_arbol {
         
         tree.inOrden();
         System.out.println("INORDEN");
+        
+        tree.posOrden();
+        System.out.println("POSORDEN");
+
 
     }
     
