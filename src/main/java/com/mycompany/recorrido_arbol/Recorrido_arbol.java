@@ -20,6 +20,10 @@ public class Recorrido_arbol {
 
         tree.preOrden();
         System.out.println("preorden");
+        
+        tree.inOrden();
+        System.out.println("INORDEN");
+
     }
     
 }
